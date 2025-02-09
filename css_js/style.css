@@ -34,36 +34,84 @@ footer {
 /*}*/
 
 
-footer {
-    margin-top: 10px;
-    background-color: rgb(195, 228, 117);
-    width: 100%;
-    height: 200px;
-    /*background-image: url("img/dunes.jpg");
-    */
-}
+
 
 aside {
-    margin-top: -30px;
+    margin-top:  30px;
     margin-left: 30px;
     padding-top: 30px;
-    background-image: url("img/aside.png");
-    width: 80%;
-    height: 120%;
+    /*background-image: url("img/aside.png");*/
+    width: 83%;
+    height: 460px;
     border-radius: 10px;
+    background-color: rgb(240, 226, 107);
 }
 
-.rodape{
-    width: 100%;
-    height: 30px;
-    background-color: aquamarine;
-    text-align: center;
+
+
+aside > nav > ul > li{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: -25px;
+}
+
+aside > nav > ul > li > button{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+aside > nav > ul > li > button > a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
 }
 
 div > p{
     margin-top: 20px;
     text-align: center;
 }
+
+.pin{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: black;
+    width: 100%;
+    height: 250px;   
+}
+
+.rodape{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.sobre_olibab{
+    background-color: white;
+    
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.sobre_olibab>a{
+    color: black;
+    text-decoration: none;
+}
+
 
 
 
