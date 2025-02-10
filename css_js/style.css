@@ -23,31 +23,16 @@
     background-color: pink;
 }
 
-/*
-footer {
-    margin-top: 10px;
-    background-color: rgb(117, 165, 228);
-    width: 100%;
-    height: 200px;
-    /*background-image: url("img/dunes.jpg");
-    */
-/*}*/
-
-
-
-
 aside {
-    margin-top:  30px;
+    margin-top:  100px;
     margin-left: 30px;
     padding-top: 30px;
     /*background-image: url("img/aside.png");*/
     width: 83%;
-    height: 460px;
+    height: 180px;
     border-radius: 10px;
     background-color: rgb(240, 226, 107);
 }
-
-
 
 aside > nav > ul > li{
     list-style-type: none;
@@ -68,7 +53,6 @@ aside > nav > ul > li > button > a{
     text-decoration: none;
     color: black;
     font-size: 25px;
-
 }
 
 div > p{
@@ -112,10 +96,52 @@ footer {
     text-decoration: none;
 }
 
+.container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
+form{
+    font-size: 25px;
+    margin-bottom: 15%;
+}
 
+.adquira_pacote{
+    background-color: white;
+    border-radius: 10px;
+    width: 30px;
+    height: 20px;
 
+}
 
+@media (max-width: 2200px){
+    .pin{
+        display: none;
+        background-color: brown;
+    }
+
+    aside{
+        display: none;
+        background-color: aqua;
+    }
+
+    #adquira{
+        display: none;
+    }
+
+    #adquira_aside{
+        display: show;
+    }
+}
+
+@media (min-width: 2200px){
+    #principal{
+        display: none;
+    }
+    #adquira_aside{
+        display: none;
+    }
+}
 
 
 
